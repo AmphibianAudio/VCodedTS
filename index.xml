@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="VCodedTS" commit="765574233deda09cc4debd17442f0a56870b55c4">
+<index version="1" name="VCodedTS" commit="be9604a8bc19b33a92ef4fc878beed50515b8fcf">
   <category name="Scripts">
     <reapack name="Song Structure Generator.lua" type="script" desc="Song Structure Generator">
       <metadata>
-        <description><![CDATA[Генератор музыкальной структуры для REAPER.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Создаёт регионы и маркеры темпа/размера/тоники/лада на таймлайне на основе настраиваемой формы песни.
-
-Особенности:
-• Настраиваемый темп (диапазон BPM), размеры, тоники и лады с весами.
-• Редактор формы: секции, шанс появления, дополнительные такты, вероятности смены темпа/размера/тоники/лада, линковка повторяющихся секций.
-• Пресеты состояния.
-• Случайная генерация с дампом параметров в консоль REAPER.
-
-Требования:
-• REAPER 6.x+
-• ReaImGui >= 0.10 (устанавливается через ReaPack).
-
-Автор: AmphibianAudio
+{\pard \ql \f0 \sa180 \li0 \fi0 \u1043 ?\u1077 ?\u1085 ?\u1077 ?\u1088 ?\u1072 ?\u1090 ?\u1086 ?\u1088 ? \u1084 ?\u1091 ?\u1079 ?\u1099 ?\u1082 ?\u1072 ?\u1083 ?\u1100 ?\u1085 ?\u1086 ?\u1081 ? \u1089 ?\u1090 ?\u1088 ?\u1091 ?\u1082 ?\u1090 ?\u1091 ?\u1088 ?\u1099 ? \u1076 ?\u1083 ?\u1103 ? REAPER.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u1057 ?\u1086 ?\u1079 ?\u1076 ?\u1072 ?\u1105 ?\u1090 ? \u1088 ?\u1077 ?\u1075 ?\u1080 ?\u1086 ?\u1085 ?\u1099 ? \u1080 ? \u1084 ?\u1072 ?\u1088 ?\u1082 ?\u1077 ?\u1088 ?\u1099 ? \u1090 ?\u1077 ?\u1084 ?\u1087 ?\u1072 ?/\u1088 ?\u1072 ?\u1079 ?\u1084 ?\u1077 ?\u1088 ?\u1072 ?/\u1090 ?\u1086 ?\u1085 ?\u1080 ?\u1082 ?\u1080 ?/\u1083 ?\u1072 ?\u1076 ?\u1072 ? \u1085 ?\u1072 ? \u1090 ?\u1072 ?\u1081 ?\u1084 ?\u1083 ?\u1072 ?\u1081 ?\u1085 ?\u1077 ?.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u1058 ?\u1088 ?\u1077 ?\u1073 ?\u1086 ?\u1074 ?\u1072 ?\u1085 ?\u1080 ?\u1103 ?: REAPER 6.x+, ReaImGui >= 0.10\par}
+}
 ]]></description>
       </metadata>
       <version name="1.0" author="AmphibianAudio">
@@ -26,10 +19,34 @@
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[Репозиторий скриптов AmphibianAudio для проекта VCodedTS.
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-URL для импорта в ReaPack:
-https://github.com/AmphibianAudio/VCodedTS/raw/master/index.xml
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ReaPack Repository Template\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
+reapack-index
+}}}
+ running from GitHub Actions.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
+index.xml
+}}}
+ when using this template. This will be the name shown in ReaPack.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
+README.md
+}}}
+). This will be the text shown when using ReaPack's "About this repository" feature.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
+Packaging Documentation
+}}}
+ on reapack-index's wiki.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
+https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
+}}}
+.\par}
+}
 ]]></description>
   </metadata>
 </index>
