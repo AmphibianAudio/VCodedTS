@@ -1,8 +1,13 @@
 -- @description Song Structure Generator
 -- @author AmphibianAudio
 -- @version 1.0
+-- @provides [main=main] .
 -- @about
--- Генератор музыкальной структуры
+--   Генератор музыкальной структуры для REAPER.
+--   
+--   Создаёт регионы и маркеры темпа/размера/тоники/лада на таймлайне.
+--   
+--   Требования: REAPER 6.x+, ReaImGui >= 0.10
 
 -- ====== ReaImGui ======
 if not reaper.ImGui_GetBuiltinPath then
